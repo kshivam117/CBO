@@ -15,6 +15,12 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/una/CSSgram/master/source/css/cssgram.css">
     <!-- app styles -->
     <link rel="stylesheet" href="styles.css">
+<!-- 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
 </head>
 <body>
 <div class="wrapper j-wrapper">
@@ -24,8 +30,8 @@
                 <img class="header__logo_img" src="https://cboinfotech.com/ss/images/logo.png"/>
             </div>
 
-            <h2 class="header__title">JavaScript VIDEO CALL Sample</h2>
-            <span class="j-version header_version"></span>
+            <h2 class="header__title">CBO Chat</h2>
+            <!-- <span class="j-version header_version"></span> -->
         </div>
     </header>
 
@@ -65,11 +71,11 @@
         </div>
     </main>
 
-    <footer class="footer j-footer invisible">
+    <footer class="footer j-footer invisible" style="display: none;">
         <p class="j-config footer-config">TEst</p>
         <h4>
             <a class="fw-link"
-               href="https://github.com/QuickBlox/quickblox-javascript-sdk/tree/gh-pages/samples/webrtc">
+               href="https://github.com/QuickBlox/quickblox-javascript-sdk/tree/gh-pages/samples/webrtc" style="display: nones;">
                 Source code
             </a>
         </h4>
@@ -249,10 +255,24 @@
 <script type="text/template" id="dashboard_tpl">
     <div class="state_board j-state_board"></div>
 
-    <div class="dashboard__inner inner">
-        <div class="users j-users_wrap"></div>
+    <!-- <div class="dashboard__inner inner"> -->
+        <div class="">
 
-        <div class="board clearfix j-board"></div>
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-11 col-md-8 col-lg-9">
+                
+                <div class=" clearfix j-board"></div>
+                <!-- <div class="board"></div> -->
+
+              </div>
+              <div class="col-sm-1 col-md-4 col-lg-3">
+                <div class="users j-users_wrap"></div>
+              </div>
+            </div>
+
+      
+       
     </div>
 </script>
 

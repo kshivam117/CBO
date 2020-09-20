@@ -137,7 +137,7 @@ b {
  */
 .header {
     display: block;
-    padding: 32px 0;
+    padding: 10px 0;
     border-bottom: 1px solid #efeff4;
 }
 
@@ -320,7 +320,7 @@ b {
  * stateBoard
  */
 .state_board {
-    padding: 10px 0 12px 0;
+    padding: 6px 0 6px 0;
 
     font-size: 13px;
     line-height: 1.4;
@@ -336,7 +336,7 @@ b {
  * USERS
  */
 .users {
-    width: 25%;
+    width: 85%;
     float: left;
 }
 
@@ -482,14 +482,14 @@ b {
 }
 
 .frames {
-    padding: 0 150px 0 0;
+    padding: 0 300px 0 0;
 }
 
 .caller {
     position: absolute;
     right: 0;
     top: 0;
-    width: 135px;
+    width: 300px;
 }
 
 .caller__ctrl{
